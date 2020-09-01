@@ -1,0 +1,10 @@
+*For running the algorithm, one should first create a file in the following directory:
+D:\optLaminatedComp
+Then, copy and paste the containing files in the algorithm folder into this directory.
+
+* The current algorithm ought to runs the verification case (L/R=2) with PSO algorithm. 
+
+* Replace "pythonScript_Spline" with "pythonScript" in the following line of the file bucklingMoment,
+in order to incorporate the ability to replace the spline fit of theta 
+with linear: 
+system(['abaqus cae nogui=pythonScript.py'])
